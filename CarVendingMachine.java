@@ -107,7 +107,7 @@ public class CarVendingMachine {
      * @param fileName name of file containing car data
      * @param vendingMachine vending machine to add cars to
      */
-    private static void readCarFromFile(String fileName, VendingMachine vendingMachine) {
+    static void readCarFromFile(String fileName, VendingMachine vendingMachine) {
         try {
             Scanner fileScanner = new Scanner(new File(fileName));
             while (fileScanner.hasNext()) {
@@ -390,3 +390,4 @@ class VendingMachine {
         }
     }//end processCarWashQueue method
 }//end VendingMachine class
+

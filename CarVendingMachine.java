@@ -390,4 +390,3 @@ class VendingMachine {
         }
     }//end processCarWashQueue method
 }//end VendingMachine class
-
